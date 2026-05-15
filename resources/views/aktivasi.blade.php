@@ -1,4 +1,3 @@
-@php require_once base_path('desa/themes/' . basename(theme_path()) . '/resources/views/commons/theme_config.php'); @endphp
 <!DOCTYPE html>
 <html lang="id">
 <head>

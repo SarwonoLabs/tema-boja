@@ -1,5 +1,10 @@
 @php
     require_once base_path('desa/themes/' . basename(theme_path()) . '/resources/views/commons/theme_config.php');
+
+    // Null-safety — pastikan variabel yang dipakai template selalu terdefinisi
+    $themeVersion = $themeVersion ?? 'v0';
+    $_tid         = $_tid         ?? null;
+    $_tls         = $_tls         ?? [];
 @endphp
 
 <!DOCTYPE html>
