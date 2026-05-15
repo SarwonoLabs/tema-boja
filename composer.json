@@ -1,0 +1,19 @@
+{
+    "name": "themes/tema-boja",
+    "type": "library",
+    "description": "Tema Gratis Boja untuk OpenSID - Bersih, Modern, dan Ramah Desa",
+    "homepage": "https://opendesa.id/",
+    "license": "GPL-3.0-or-later",
+    "keywords": [
+        "Themes",
+        "OpenSID",
+        "Boja",
+        "Free"
+    ],
+    "authors": [
+        {
+            "name": "OpenDesa Developer",
+            "email": "developer@opendesa.id"
+        }
+    ]
+}

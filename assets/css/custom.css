@@ -1,0 +1,16 @@
+/* ============================================
+   TEMA BOJA - Custom CSS
+   Tambahkan kustomisasi CSS di file ini.
+   File ini dimuat SETELAH style.css utama,
+   sehingga bisa digunakan untuk override.
+   ============================================ */
+
+/* Contoh: Mengubah warna primary
+:root {
+  --primary: #2563EB;
+  --primary-dark: #1D4ED8;
+  --primary-darker: #1E3A8A;
+  --primary-soft: #93C5FD;
+  --primary-light: #DBEAFE;
+}
+*/

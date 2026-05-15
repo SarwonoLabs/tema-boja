@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none">
+  <rect width="400" height="250" fill="#F1F5F9"/>
+  <rect x="1" y="1" width="398" height="248" rx="3" stroke="#E2E8F0" stroke-width="2" fill="none"/>
+  <g transform="translate(200,105)" text-anchor="middle">
+    <rect x="-28" y="-28" width="56" height="56" rx="14" fill="#E2E8F0"/>
+    <path d="M-12,-8 L12,-8 L12,12 L-12,12Z" stroke="#94A3B8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="-5" cy="-2" r="2.5" fill="#94A3B8"/>
+    <path d="M-12,8 L-4,1 L2,6 L7,2 L12,8" stroke="#94A3B8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="200" y="160" text-anchor="middle" fill="#94A3B8" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600">Tidak Ada Gambar</text>
+</svg>

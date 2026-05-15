@@ -1,0 +1,1 @@
+<div class="kes-widget-card"><div class="kes-widget-icon @@bg-color"><i class="ion @@icon"></i></div><div class="kes-widget-info"><span class="kes-widget-total">@@total</span><span class="kes-widget-label">@@title</span></div></div>

@@ -1,0 +1,1 @@
+<div class="kes-chart-row"><div class="kes-chart-card kes-chart-card-sm"><div id="chart_0_5" style="min-height:340px;"></div></div><div class="kes-chart-card kes-chart-card-sm"><div id="chart_6_11" style="min-height:340px;"></div></div><div class="kes-chart-card kes-chart-card-sm"><div id="chart_12_23" style="min-height:340px;"></div></div></div>
