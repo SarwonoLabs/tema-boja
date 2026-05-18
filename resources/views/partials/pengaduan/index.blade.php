@@ -164,7 +164,7 @@
 
         var pageSize = {{ theme_config('jumlah_pengaduan_perhalaman') ?: 10 }};
         var apiUrl   = '{{ ci_route("internal_api.pengaduan") }}';
-        var noImage  = '{{ theme_asset("images/no-galery.png") }}';
+        var noImage  = '{{ theme_asset("images/no-image-article.svg") }}';
 
         // ── Helper: check if foto URL points to a real uploaded file ──
         function hasRealFoto(url){

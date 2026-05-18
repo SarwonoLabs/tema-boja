@@ -38,7 +38,7 @@
         @else
             {{-- Empty state --}}
             <div class="wgaleri-empty">
-                <img src="{{ theme_asset('images/no-galery.png') }}" alt="Belum ada galeri" class="wgaleri-empty-img">
+                <img src="{{ theme_asset('images/no-image-article.svg') }}" alt="Belum ada galeri" class="wgaleri-empty-img">
                 <p>Belum ada dokumentasi galeri</p>
             </div>
         @endif

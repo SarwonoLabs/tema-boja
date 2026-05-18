@@ -96,7 +96,7 @@
     <div class="stat-table-header">
         <h2><i class="fas fa-hand-holding-heart"></i> Daftar {{ $heading }}</h2>
     </div>
-    <div class="stat-table-wrap">
+    <div class="stat-table">
         <table class="stat-table" id="peserta_program">
             <thead>
                 <tr>

@@ -66,7 +66,7 @@
 /* ðŸ’™ Nila (Indigo) */
 /* ========== RESET & BASE ========== */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;font-family:var(--font-body);line-height:1.7;color:var(--text-body)}
+html{scroll-behavior:smooth;font-family:var(--font-body);line-height:1.7;color:var(--text-body);overflow-x:hidden;max-width:100%}
 body{background:var(--bg-body);font-size:15px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit;text-decoration:none;transition:color var(--transition)}
 a:hover{color:var(--primary)}
@@ -80,7 +80,9 @@ p{margin-bottom:.75rem}
 .container{width:100%;max-width:1200px;margin:0 auto;padding:0 20px}
 
 /* ========== NAVBAR ========== */
-.navbar-boja{background:var(--primary-darker);position:sticky;top:0;z-index:1000;transition:all .3s;border-bottom:none}
+.navbar-boja{background:var(--primary-darker);position:fixed;top:0;left:0;right:0;z-index:1000;transition:box-shadow .3s;border-bottom:none}
+.navbar-boja.scrolled{box-shadow:0 2px 16px rgba(0,0,0,.25)}
+body{padding-top:56px}
 .navbar-inner{display:flex;align-items:center;height:56px;gap:1rem}
 .navbar-brand{display:flex;align-items:center;gap:10px;flex-shrink:0;text-decoration:none}
 .navbar-logo{height:36px;width:36px;object-fit:contain;border-radius:50%;background:rgba(255,255,255,.15);padding:2px}
@@ -3397,7 +3399,10 @@ textarea{min-height:100px;resize:vertical}
   box-shadow:0 2px 12px rgba(0,0,0,.06);
   overflow:hidden;margin-bottom:24px;
 }
-.sotk-chart-inner{padding:20px;overflow-x:auto}
+.sotk-chart-inner{padding:20px;overflow-x:auto;overflow-y:visible}
+.sotk-chart-inner .highcharts-figure{overflow:visible}
+.sotk-chart-inner .highcharts-data-label text{white-space:normal!important}
+.sotk-chart-inner .highcharts-node rect{rx:6;ry:6}
 .sotk-chart-loading{
   text-align:center;padding:48px 20px;color:#6b7280;
 }
@@ -8151,6 +8156,12 @@ select.kes-filter-field:focus,
   text-align:center;
   border:1px solid rgba(255,255,255,.12);
   white-space:nowrap;
+}
+/* Tabel peserta bantuan — header hitam/gelap, bukan warna primary */
+#peserta_program thead th{
+  background:#F8FAFC;
+  color:#1E293B;
+  border:1px solid #E2E8F0;
 }
 .stat-table tbody td{
   padding:9px 14px;

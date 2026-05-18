@@ -5,6 +5,18 @@
         ? $latar_website
         : theme_asset('images/hero.jpg');
     $isHome = empty(request()->segment(1)) || request()->segment(1) === 'first';
+
+    // Sembunyikan hero pada halaman tertentu
+    $seg1 = request()->segment(1) ?? '';
+    $seg2 = request()->segment(2) ?? '';
+    $seg3 = request()->segment(3) ?? '';
+    $noHeroPages = [
+        'first/statistik/bantuan_keluarga',
+    ];
+    $currentSeg = trim($seg1 . '/' . $seg2 . '/' . $seg3, '/');
+    if (in_array($currentSeg, $noHeroPages)) {
+        $isHome = false;
+    }
 @endphp
 
 @if ($isHome)

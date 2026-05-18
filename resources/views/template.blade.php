@@ -38,6 +38,9 @@
     @include('theme::commons.footer')
     @include('theme::commons.back_to_top')
 
+    {{-- Demo Banner — aktif jika file demo_banner.blade.php ada, skip otomatis jika tidak ada --}}
+    @includeIf('theme::commons.demo_banner')
+
     <script src="{{ theme_asset('js/helper.js') }}&{{ $themeVersion }}"></script>
     <script type="text/javascript">
         var _0x = {

@@ -26,7 +26,7 @@
 
 @push('scripts')
     <script type="text/javascript">
-        var noImage = '{{ theme_asset('images/no-galery.png') }}';
+        var noImage = '{{ theme_asset('images/no-image-article.svg') }}';
         var notFoundW = 320, notFoundH = 308;
 
         function checkNotFound(img) {

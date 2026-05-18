@@ -60,7 +60,7 @@
     @include('theme::commons.asset_select2')
     <script src="{{ theme_asset('js/pagination.js') }}"></script>
     <script type="text/javascript">
-        var noProduct = '{{ theme_asset('images/no-galery.png') }}';
+        var noProduct = '{{ theme_asset('images/no-image-article.svg') }}';
         var notFoundW = 320, notFoundH = 308;
 
         function checkProdukImg(img) {

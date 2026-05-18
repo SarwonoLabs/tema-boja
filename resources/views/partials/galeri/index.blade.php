@@ -33,7 +33,7 @@
 @push('scripts')
     <script src="{{ theme_asset('js/pagination.js') }}"></script>
     <script type="text/javascript">
-        var noGaleri = '{{ theme_asset('images/no-galery.png') }}';
+        var noGaleri = '{{ theme_asset('images/no-image-article.svg') }}';
         var notFoundW = 320, notFoundH = 308;
 
         function checkGaleriImg(img) {
